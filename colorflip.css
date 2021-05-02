@@ -1,0 +1,48 @@
+body{
+	padding:0;
+	margin:0;
+}
+.result-box{
+	font-size:2em;
+	width:25%;
+	height:20%;
+	border:1px solid white;
+	border-radius: 14px;
+}
+#flipper{
+	font-size:1.4em;
+}
+@media(min-width:320px){
+	.result-box{
+		margin:auto;
+		margin-top:50%;
+	}
+	#flipper{
+		margin-left:38%;
+	}
+}
+@media(min-width:556px){
+	.result-box{
+		margin:auto;
+		margin-top:50%;
+	}
+	#flipper{
+		margin-left:38%;
+	}
+}@media(min-width:768px){
+	.result-box{
+		margin:auto;
+		margin-top:50%;
+	}
+	#flipper{
+		margin-left:38%;
+	}
+}@media(min-width:996px){
+	.result-box{
+		margin:auto;
+		margin-top:15%;
+	}
+	#flipper{
+		margin-left:38%;
+	}
+}
